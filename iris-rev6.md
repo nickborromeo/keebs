@@ -7,14 +7,14 @@
 <img width="784" alt="Screenshot 2024-12-07 at 6 26 31 PM" src="https://github.com/user-attachments/assets/6d2bd747-68c0-4c9f-aef5-e01932fe6694">
 
 #### Layer 2
-<img width="780" alt="Screenshot 2024-12-07 at 6 26 37 PM" src="https://github.com/user-attachments/assets/b06302ba-bd1c-4eb9-a951-ef75601abca3">
+<img width="789" alt="Screenshot 2024-12-07 at 10 53 35 PM" src="https://github.com/user-attachments/assets/56ca8548-d177-4b5e-ab8e-b3c8bd18b1be">
 
 #### Layer 3
 <img width="786" alt="Screenshot 2024-12-07 at 6 26 47 PM" src="https://github.com/user-attachments/assets/418f196c-4c52-4ce1-8bf6-9deeaaf05a93">
 
 
 #### Configuration
- - [keebio_iris_rev6_nickpicker_iris.json](https://github.com/user-attachments/files/18050521/keebio_iris_rev6_nickpicker_iris.json)
+ - [keebio_iris_rev6_nickpicker_iris.json](https://github.com/user-attachments/files/18051039/keebio_iris_rev6_nickpicker_iris.json)
 
 ```json
 {
@@ -154,8 +154,8 @@
       "KC_NO",
       "KC_NO",
       "KC_NO",
-      "KC_NO",
-      "KC_NO",
+      "LAG(KC_H)",
+      "LAG(KC_L)",
       "KC_NO",
       "KC_NO",
       "KC_LBRC",
