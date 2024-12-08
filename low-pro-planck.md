@@ -1,16 +1,16 @@
 ### Low Profile Planck
 
 #### Layer 0
-<img width="644" alt="Screenshot 2024-12-07 at 5 01 37 PM" src="https://github.com/user-attachments/assets/339b18b2-a4ea-4b06-9ada-f37aa159aa68">
+<img width="663" alt="Screenshot 2024-12-07 at 11 02 14 PM" src="https://github.com/user-attachments/assets/8ffdb646-809b-40e4-a8f0-09b463746ec6">
 
 #### Layer 1
-<img width="639" alt="Screenshot 2024-12-07 at 5 01 44 PM" src="https://github.com/user-attachments/assets/16bbd658-201e-49fb-bfef-2dc7f9bac7bb">
+<img width="659" alt="Screenshot 2024-12-07 at 11 02 21 PM" src="https://github.com/user-attachments/assets/4068ee96-17e4-4dbd-b116-282d3a6ecec8">
 
 #### Layer 2
 <img width="649" alt="Screenshot 2024-12-07 at 5 01 51 PM" src="https://github.com/user-attachments/assets/93c3a198-afa2-4852-ada7-793e6e232482">
 
 #### Configurations
-- [planck_rev6_nickpicker_planck.json](https://github.com/user-attachments/files/18050384/planck_rev6_nickpicker_planck.json)
+- [planck_rev6.json](https://github.com/user-attachments/files/18051045/planck_rev6_planck_rev6_nickpicker_planck.json)
 
 ```json
 {
@@ -18,7 +18,7 @@
   "notes": "",
   "documentation": "\"This file is a QMK Configurator export. You can import this at <https://config.qmk.fm>. It can also be used directly with QMK's source code.\n\nTo setup your QMK environment check out the tutorial: <https://docs.qmk.fm/#/newbs>\n\nYou can convert this file to a keymap.c using this command: `qmk json2c {keymap}`\n\nYou can compile this keymap using this command: `qmk compile {keymap}`\"\n",
   "keyboard": "planck/rev6",
-  "keymap": "planck_rev6_nickpicker_planck",
+  "keymap": "planck_rev6_planck_rev6_nickpicker_planck",
   "layout": "LAYOUT_ortho_4x12",
   "layers": [
     [
@@ -63,7 +63,7 @@
       "KC_LALT",
       "KC_LGUI",
       "MO(1)",
-      "KC_LGUI",
+      "LT(2,KC_SPC)",
       "LT(2,KC_SPC)",
       "KC_LBRC",
       "KC_RBRC",
@@ -104,8 +104,8 @@
       "KC_NO",
       "KC_NO",
       "KC_NO",
-      "KC_NO",
-      "KC_NO",
+      "LAG(KC_H)",
+      "LAG(KC_L)",
       "KC_NO",
       "KC_ENT",
       "KC_NO",
@@ -173,6 +173,5 @@
     ]
   ],
   "author": ""
-}
+}lanck_rev6_planck_rev6_nickpicker_planck.json…]()
 ```
-
