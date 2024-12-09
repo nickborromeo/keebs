@@ -1,16 +1,16 @@
 ### Low Profile Planck
 
 #### Layer 0
-<img width="663" alt="Screenshot 2024-12-07 at 11 02 14 PM" src="https://github.com/user-attachments/assets/8ffdb646-809b-40e4-a8f0-09b463746ec6">
+<img width="670" alt="Screenshot 2024-12-09 at 10 44 01 AM" src="https://github.com/user-attachments/assets/7033f278-29c7-403d-b6a6-3f381f60594b">
 
 #### Layer 1
-<img width="659" alt="Screenshot 2024-12-07 at 11 02 21 PM" src="https://github.com/user-attachments/assets/4068ee96-17e4-4dbd-b116-282d3a6ecec8">
+<img width="678" alt="Screenshot 2024-12-09 at 10 48 22 AM" src="https://github.com/user-attachments/assets/2ab61f8f-85c7-4f12-8085-d01831a557d3">
 
 #### Layer 2
 <img width="649" alt="Screenshot 2024-12-07 at 5 01 51 PM" src="https://github.com/user-attachments/assets/93c3a198-afa2-4852-ada7-793e6e232482">
 
 #### Configurations
-- [planck_rev6.json](https://github.com/user-attachments/files/18051045/planck_rev6_planck_rev6_nickpicker_planck.json)
+- [planck_rev6.json](https://github.com/user-attachments/files/18066472/planck_rev6_planck_rev6_planck_rev6_planck_rev6_nickpicker_planck.json)
 
 ```json
 {
@@ -18,11 +18,11 @@
   "notes": "",
   "documentation": "\"This file is a QMK Configurator export. You can import this at <https://config.qmk.fm>. It can also be used directly with QMK's source code.\n\nTo setup your QMK environment check out the tutorial: <https://docs.qmk.fm/#/newbs>\n\nYou can convert this file to a keymap.c using this command: `qmk json2c {keymap}`\n\nYou can compile this keymap using this command: `qmk compile {keymap}`\"\n",
   "keyboard": "planck/rev6",
-  "keymap": "planck_rev6_planck_rev6_nickpicker_planck",
+  "keymap": "planck_rev6_planck_rev6_planck_rev6_planck_rev6_nickpicker_planck",
   "layout": "LAYOUT_ortho_4x12",
   "layers": [
     [
-      "QK_GESC",
+      "KC_TAB",
       "KC_Q",
       "KC_W",
       "KC_E",
@@ -33,8 +33,8 @@
       "KC_I",
       "KC_O",
       "KC_P",
-      "KC_BSPC",
-      "KC_TAB",
+      "KC_BSLS",
+      "LCTL_T(KC_ESC)",
       "KC_A",
       "KC_S",
       "KC_D",
@@ -58,17 +58,17 @@
       "KC_DOT",
       "KC_SLSH",
       "KC_ENT",
-      "KC_LPRN",
+      "LT(1,KC_LPRN)",
       "KC_LCTL",
       "KC_LALT",
-      "KC_LGUI",
       "MO(1)",
+      "KC_LGUI",
       "LT(2,KC_SPC)",
       "LT(2,KC_SPC)",
+      "KC_NO",
+      "KC_BSPC",
       "KC_LBRC",
       "KC_RBRC",
-      "KC_LCBR",
-      "KC_RCBR",
       "KC_RPRN"
     ],
     [
@@ -91,8 +91,8 @@
       "KC_NO",
       "KC_NO",
       "KC_LEFT",
-      "KC_UP",
       "KC_DOWN",
+      "KC_UP",
       "KC_RGHT",
       "KC_NO",
       "KC_PIPE",
@@ -111,8 +111,8 @@
       "KC_NO",
       "KC_NO",
       "KC_NO",
-      "KC_LSFT",
       "KC_TRNS",
+      "KC_LSFT",
       "KC_SPC",
       "KC_SPC",
       "KC_NO",
@@ -158,10 +158,10 @@
       "KC_P3",
       "KC_NO",
       "KC_ENT",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
+      "SGUI(KC_A)",
+      "SGUI(KC_V)",
+      "SGUI(KC_S)",
+      "SGUI(KC_Q)",
       "KC_NO",
       "KC_TRNS",
       "KC_TRNS",
@@ -173,5 +173,5 @@
     ]
   ],
   "author": ""
-}lanck_rev6_planck_rev6_nickpicker_planck.json…]()
+}
 ```
