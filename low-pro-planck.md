@@ -4,21 +4,21 @@
 <img width="670" alt="Screenshot 2024-12-09 at 10 44 01 AM" src="https://github.com/user-attachments/assets/7033f278-29c7-403d-b6a6-3f381f60594b">
 
 #### Layer 1
-<img width="678" alt="Screenshot 2024-12-09 at 10 48 22 AM" src="https://github.com/user-attachments/assets/2ab61f8f-85c7-4f12-8085-d01831a557d3">
+<img width="665" alt="Screenshot 2024-12-09 at 5 28 25 PM" src="https://github.com/user-attachments/assets/fe2a20ca-4e43-4834-9998-890fe88186b9">
 
 #### Layer 2
 <img width="649" alt="Screenshot 2024-12-07 at 5 01 51 PM" src="https://github.com/user-attachments/assets/93c3a198-afa2-4852-ada7-793e6e232482">
 
 #### Configurations
-- [planck_rev6.json](https://github.com/user-attachments/files/18066472/planck_rev6_planck_rev6_planck_rev6_planck_rev6_nickpicker_planck.json)
-
+ - [planck_rev6_planck_rev6.json](https://github.com/user-attachments/files/18070200/planck_rev6_planck_rev6.json)
+   
 ```json
 {
   "version": 1,
   "notes": "",
   "documentation": "\"This file is a QMK Configurator export. You can import this at <https://config.qmk.fm>. It can also be used directly with QMK's source code.\n\nTo setup your QMK environment check out the tutorial: <https://docs.qmk.fm/#/newbs>\n\nYou can convert this file to a keymap.c using this command: `qmk json2c {keymap}`\n\nYou can compile this keymap using this command: `qmk compile {keymap}`\"\n",
   "keyboard": "planck/rev6",
-  "keymap": "planck_rev6_planck_rev6_planck_rev6_planck_rev6_nickpicker_planck",
+  "keymap": "planck_rev6_planck_rev6",
   "layout": "LAYOUT_ortho_4x12",
   "layers": [
     [
@@ -108,11 +108,11 @@
       "LAG(KC_L)",
       "KC_NO",
       "KC_ENT",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
       "KC_TRNS",
       "KC_LSFT",
+      "KC_NO",
+      "KC_TRNS",
+      "KC_LGUI",
       "KC_SPC",
       "KC_SPC",
       "KC_NO",
@@ -175,3 +175,4 @@
   "author": ""
 }
 ```
+
