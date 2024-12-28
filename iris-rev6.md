@@ -1,32 +1,32 @@
 ### Iris Rev 6
 
 #### Layer 0
-<img width="791" alt="Screenshot 2024-12-07 at 6 26 23 PM" src="https://github.com/user-attachments/assets/0d2671b3-07b3-4c16-aa55-a1911b004be3">
+<img width="785" alt="Screenshot 2024-12-27 at 4 07 34 PM" src="https://github.com/user-attachments/assets/593a7bc4-d524-40b6-9e3c-a6b8868070cc" />
 
 #### Layer 1
-<img width="784" alt="Screenshot 2024-12-07 at 6 26 31 PM" src="https://github.com/user-attachments/assets/6d2bd747-68c0-4c9f-aef5-e01932fe6694">
+<img width="788" alt="Screenshot 2024-12-27 at 4 07 43 PM" src="https://github.com/user-attachments/assets/27b41d3a-61b3-49c3-a674-770cf317f6e5" />
 
 #### Layer 2
-<img width="789" alt="Screenshot 2024-12-07 at 10 53 35 PM" src="https://github.com/user-attachments/assets/56ca8548-d177-4b5e-ab8e-b3c8bd18b1be">
+<img width="782" alt="Screenshot 2024-12-27 at 4 07 56 PM" src="https://github.com/user-attachments/assets/165520ed-593f-4bf8-b2f8-2368f8014d9d" />
 
 #### Layer 3
-<img width="786" alt="Screenshot 2024-12-07 at 6 26 47 PM" src="https://github.com/user-attachments/assets/418f196c-4c52-4ce1-8bf6-9deeaaf05a93">
+<img width="797" alt="Screenshot 2024-12-27 at 4 08 03 PM" src="https://github.com/user-attachments/assets/de7c1269-53fb-459b-b807-6bc98908bf53" />
 
 
 #### Configuration
- - [keebio_iris_rev6_nickpicker_iris.json](https://github.com/user-attachments/files/18051039/keebio_iris_rev6_nickpicker_iris.json)
-
-```json
-{
+ - [keebio_iris_rev6_nickpicker_iris.json](https://github.com/user-attachments/files/18264420/keebio_iris_rev6_keebio_iris_rev6_keebio_iris_rev6_keebio_iris_rev6_nickpicker_iris.json)
+   
+ ```json
+ {
   "version": 1,
   "notes": "",
   "documentation": "\"This file is a QMK Configurator export. You can import this at <https://config.qmk.fm>. It can also be used directly with QMK's source code.\n\nTo setup your QMK environment check out the tutorial: <https://docs.qmk.fm/#/newbs>\n\nYou can convert this file to a keymap.c using this command: `qmk json2c {keymap}`\n\nYou can compile this keymap using this command: `qmk compile {keymap}`\"\n",
   "keyboard": "keebio/iris/rev6",
-  "keymap": "keebio_iris_rev6_nickpicker_iris",
+  "keymap": "keebio_iris_rev6_keebio_iris_rev6_keebio_iris_rev6_keebio_iris_rev6_nickpicker_iris",
   "layout": "LAYOUT",
   "layers": [
     [
-      "QK_GESC",
+      "KC_GRV",
       "KC_EXLM",
       "KC_AT",
       "KC_HASH",
@@ -50,7 +50,7 @@
       "KC_O",
       "KC_P",
       "KC_BSLS",
-      "LCTL(KC_ESC)",
+      "LCTL_T(KC_ESC)",
       "KC_A",
       "KC_S",
       "KC_D",
@@ -63,25 +63,25 @@
       "KC_SCLN",
       "KC_QUOT",
       "SC_LSPO",
-      "KC_Z",
+      "LALT_T(KC_Z)",
       "KC_X",
       "KC_C",
       "KC_V",
       "KC_B",
-      "SGUI(KC_4)",
-      "SGUI(KC_5)",
+      "KC_MUTE",
+      "LCTL(KC_SPC)",
       "KC_N",
       "KC_M",
       "KC_COMM",
       "KC_DOT",
       "KC_SLSH",
       "SC_RSPC",
-      "LT(3,KC_LALT)",
+      "MO(3)",
       "KC_LGUI",
       "LT(1,KC_SPC)",
       "LT(2,KC_ENT)",
       "KC_BSPC",
-      "KC_NO"
+      "MO(2)"
     ],
     [
       "KC_NO",
@@ -142,9 +142,9 @@
       "KC_NO"
     ],
     [
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
+      "KC_GRV",
+      "KC_P",
+      "KC_N",
       "KC_NO",
       "KC_LPRN",
       "KC_RPRN",
@@ -184,7 +184,7 @@
       "KC_NO",
       "KC_NO",
       "KC_NO",
-      "LALT(KC_Q)",
+      "LGUI(KC_W)",
       "KC_TRNS",
       "KC_NO",
       "KC_NO",
@@ -231,8 +231,8 @@
       "KC_NO",
       "KC_NO",
       "KC_LEFT",
-      "KC_UP",
       "KC_DOWN",
+      "KC_UP",
       "KC_RGHT",
       "KC_NO",
       "KC_NO",
@@ -253,7 +253,7 @@
       "KC_TRNS",
       "KC_NO",
       "KC_NO",
-      "KC_NO",
+      "LALT(KC_ENT)",
       "KC_NO",
       "KC_NO"
     ]
