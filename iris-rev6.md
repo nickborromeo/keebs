@@ -1,7 +1,7 @@
 ### Iris Rev 6
 
 #### Layer 0
-<img width="785" alt="Screenshot 2024-12-27 at 4 07 34 PM" src="https://github.com/user-attachments/assets/593a7bc4-d524-40b6-9e3c-a6b8868070cc" />
+<img width="775" height="295" alt="Screenshot 2025-10-01 at 11 26 20 AM" src="https://github.com/user-attachments/assets/311fcdad-d83a-4955-85f0-c7295679e8e3" />
 
 #### Layer 1
 <img width="788" alt="Screenshot 2024-12-27 at 4 07 43 PM" src="https://github.com/user-attachments/assets/27b41d3a-61b3-49c3-a674-770cf317f6e5" />
@@ -12,12 +12,15 @@
 #### Layer 3
 <img width="797" alt="Screenshot 2024-12-27 at 4 08 03 PM" src="https://github.com/user-attachments/assets/de7c1269-53fb-459b-b807-6bc98908bf53" />
 
+#### Layer 4
+<img width="773" height="297" alt="Screenshot 2025-10-01 at 11 26 32 AM" src="https://github.com/user-attachments/assets/2cb85924-fc60-4c6a-aefe-0486120932d2" />
+
 
 #### Configuration
- - [keebio_iris_rev6_nickpicker_iris.json](https://github.com/user-attachments/files/18264420/keebio_iris_rev6_keebio_iris_rev6_keebio_iris_rev6_keebio_iris_rev6_nickpicker_iris.json)
-   
- ```json
- {
+ - [keebio_iris_rev6_keebio_iris_rev6_keebio_iris_rev6_keebio_iris_rev6_nickpicker_iris (2).json](https://github.com/user-attachments/files/22646203/keebio_iris_rev6_keebio_iris_rev6_keebio_iris_rev6_keebio_iris_rev6_nickpicker_iris.2.json)
+
+```json
+{
   "version": 1,
   "notes": "",
   "documentation": "\"This file is a QMK Configurator export. You can import this at <https://config.qmk.fm>. It can also be used directly with QMK's source code.\n\nTo setup your QMK environment check out the tutorial: <https://docs.qmk.fm/#/newbs>\n\nYou can convert this file to a keymap.c using this command: `qmk json2c {keymap}`\n\nYou can compile this keymap using this command: `qmk compile {keymap}`\"\n",
@@ -68,7 +71,7 @@
       "KC_C",
       "KC_V",
       "KC_B",
-      "KC_MUTE",
+      "OS_HYPR",
       "LCTL(KC_SPC)",
       "KC_N",
       "KC_M",
@@ -81,7 +84,7 @@
       "LT(1,KC_SPC)",
       "LT(2,KC_ENT)",
       "KC_BSPC",
-      "MO(2)"
+      "MO(4)"
     ],
     [
       "KC_NO",
@@ -178,8 +181,8 @@
       "KC_NO",
       "KC_NO",
       "KC_NO",
-      "SGUI(KC_4)",
-      "SGUI(KC_5)",
+      "LSG(KC_4)",
+      "LSG(KC_5)",
       "KC_NO",
       "KC_NO",
       "KC_NO",
@@ -192,9 +195,9 @@
       "KC_NO",
       "KC_NO",
       "KC_NO",
-      "SGUI(KC_A)",
-      "SGUI(KC_V)",
-      "SGUI(KC_S)",
+      "LSG(KC_A)",
+      "LSG(KC_V)",
+      "LSG(KC_S)",
       "KC_TRNS",
       "KC_TRNS",
       "KC_TRNS"
@@ -218,10 +221,10 @@
       "KC_NO",
       "KC_NO",
       "KC_NO",
-      "KC_MS_L",
-      "KC_MS_U",
-      "KC_MS_D",
-      "KC_MS_R",
+      "MS_LEFT",
+      "MS_UP",
+      "MS_DOWN",
+      "MS_RGHT",
       "KC_NO",
       "KC_NO",
       "KC_NO",
@@ -244,10 +247,10 @@
       "KC_NO",
       "KC_NO",
       "KC_NO",
-      "KC_WH_L",
-      "KC_WH_U",
-      "KC_WH_D",
-      "KC_WH_R",
+      "MS_WHLL",
+      "MS_WHLU",
+      "MS_WHLD",
+      "MS_WHLR",
       "KC_NO",
       "KC_NO",
       "KC_TRNS",
@@ -256,6 +259,64 @@
       "LALT(KC_ENT)",
       "KC_NO",
       "KC_NO"
+    ],
+    [
+      "BL_TOGG",
+      "BL_ON",
+      "BL_OFF",
+      "BL_STEP",
+      "BL_BRTG",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "LM_TOGG",
+      "LM_ON",
+      "LM_OFF",
+      "KC_NO",
+      "BL_UP",
+      "BL_DOWN",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "UG_TOGG",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "LM_PREV",
+      "LM_NEXT",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "RM_TOGG",
+      "RM_ON",
+      "RM_OFF",
+      "KC_NO",
+      "UG_SPDU",
+      "UG_SPDD",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_TRNS"
     ]
   ],
   "author": ""
