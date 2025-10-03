@@ -1,7 +1,7 @@
 ### Iris Rev 6
 
 #### Layer 0
-<img width="775" height="295" alt="Screenshot 2025-10-01 at 11 26 20 AM" src="https://github.com/user-attachments/assets/311fcdad-d83a-4955-85f0-c7295679e8e3" />
+<img width="769" height="303" alt="Screenshot 2025-10-02 at 7 17 27 PM" src="https://github.com/user-attachments/assets/0697db78-acbe-4015-8fda-e55be711eef9" />
 
 #### Layer 1
 <img width="788" alt="Screenshot 2024-12-27 at 4 07 43 PM" src="https://github.com/user-attachments/assets/27b41d3a-61b3-49c3-a674-770cf317f6e5" />
@@ -17,7 +17,8 @@
 
 
 #### Configuration
- - [keebio_iris_rev6_keebio_iris_rev6_keebio_iris_rev6_keebio_iris_rev6_nickpicker_iris (2).json](https://github.com/user-attachments/files/22646203/keebio_iris_rev6_keebio_iris_rev6_keebio_iris_rev6_keebio_iris_rev6_nickpicker_iris.2.json)
+
+- [keebio_iris_rev6.json](https://github.com/user-attachments/files/22672736/keebio_iris_rev6.json)
 
 ```json
 {
@@ -25,7 +26,7 @@
   "notes": "",
   "documentation": "\"This file is a QMK Configurator export. You can import this at <https://config.qmk.fm>. It can also be used directly with QMK's source code.\n\nTo setup your QMK environment check out the tutorial: <https://docs.qmk.fm/#/newbs>\n\nYou can convert this file to a keymap.c using this command: `qmk json2c {keymap}`\n\nYou can compile this keymap using this command: `qmk compile {keymap}`\"\n",
   "keyboard": "keebio/iris/rev6",
-  "keymap": "keebio_iris_rev6_keebio_iris_rev6_keebio_iris_rev6_keebio_iris_rev6_nickpicker_iris",
+  "keymap": "keebio_iris_rev6",
   "layout": "LAYOUT",
   "layers": [
     [
@@ -82,9 +83,9 @@
       "MO(3)",
       "KC_LGUI",
       "LT(1,KC_SPC)",
-      "LT(2,KC_ENT)",
+      "LT(4,KC_ENT)",
       "KC_BSPC",
-      "MO(4)"
+      "MO(2)"
     ],
     [
       "KC_NO",
