@@ -7,7 +7,7 @@
 <img width="788" alt="Screenshot 2024-12-27 at 4 07 43 PM" src="https://github.com/user-attachments/assets/27b41d3a-61b3-49c3-a674-770cf317f6e5" />
 
 #### Layer 2
-<img width="782" alt="Screenshot 2024-12-27 at 4 07 56 PM" src="https://github.com/user-attachments/assets/165520ed-593f-4bf8-b2f8-2368f8014d9d" />
+<img width="779" height="301" alt="Screenshot 2025-10-02 at 7 30 30 PM" src="https://github.com/user-attachments/assets/8083dbdb-cabb-4a26-b789-fbd35d866275" />
 
 #### Layer 3
 <img width="797" alt="Screenshot 2024-12-27 at 4 08 03 PM" src="https://github.com/user-attachments/assets/de7c1269-53fb-459b-b807-6bc98908bf53" />
@@ -18,9 +18,9 @@
 
 #### Configuration
 
-- [keebio_iris_rev6.json](https://github.com/user-attachments/files/22672736/keebio_iris_rev6.json)
+- [keebio_iris_rev6 (2).json](https://github.com/user-attachments/files/22672901/keebio_iris_rev6.2.json)
 
-```json
+```
 {
   "version": 1,
   "notes": "",
@@ -146,9 +146,9 @@
       "KC_NO"
     ],
     [
-      "KC_GRV",
-      "KC_P",
-      "KC_N",
+      "LSFT(KC_LEFT)",
+      "LSFT(KC_RGHT)",
+      "KC_NO",
       "KC_NO",
       "KC_LPRN",
       "KC_RPRN",
