@@ -1,22 +1,22 @@
 ### Low Profile Planck
 
 #### Layer 0
-<img width="670" alt="Screenshot 2024-12-09 at 10 44 01 AM" src="https://github.com/user-attachments/assets/7033f278-29c7-403d-b6a6-3f381f60594b">
+<img width="636" height="292" alt="Screenshot 2026-03-18 at 7 17 56 PM" src="https://github.com/user-attachments/assets/623896b2-6f4c-4211-b087-cba79a2fd4c5" />
 
 #### Layer 1
-<img width="665" alt="Screenshot 2024-12-09 at 5 28 25 PM" src="https://github.com/user-attachments/assets/fe2a20ca-4e43-4834-9998-890fe88186b9">
+<img width="637" height="284" alt="Screenshot 2026-03-18 at 7 18 04 PM" src="https://github.com/user-attachments/assets/7567c22f-6379-4ef7-8548-c0de3de90b94" />
 
 #### Layer 2
-<img width="649" alt="Screenshot 2024-12-07 at 5 01 51 PM" src="https://github.com/user-attachments/assets/93c3a198-afa2-4852-ada7-793e6e232482">
+<img width="637" height="288" alt="Screenshot 2026-03-18 at 7 18 12 PM" src="https://github.com/user-attachments/assets/0cd79152-ab1e-49e6-85ee-85f398e62d7d" />
 
 #### Configurations
- - [planck_rev6_planck_rev6.json](https://github.com/user-attachments/files/18070200/planck_rev6_planck_rev6.json)
-   
+ - [planck_rev6_planck_rev6.json](https://github.com/user-attachments/files/26104475/planck_rev6_planck_rev6.3.json)
+
 ```json
 {
-  "version": 1,
-  "notes": "",
   "documentation": "\"This file is a QMK Configurator export. You can import this at <https://config.qmk.fm>. It can also be used directly with QMK's source code.\n\nTo setup your QMK environment check out the tutorial: <https://docs.qmk.fm/#/newbs>\n\nYou can convert this file to a keymap.c using this command: `qmk json2c {keymap}`\n\nYou can compile this keymap using this command: `qmk compile {keymap}`\"\n",
+  "notes": "",
+  "version": 1,
   "keyboard": "planck/rev6",
   "keymap": "planck_rev6_planck_rev6",
   "layout": "LAYOUT_ortho_4x12",
@@ -58,10 +58,10 @@
       "KC_DOT",
       "KC_SLSH",
       "KC_ENT",
-      "LT(1,KC_LPRN)",
+      "MO(1)",
       "KC_LCTL",
       "KC_LALT",
-      "MO(1)",
+      "OS_HYPR",
       "KC_LGUI",
       "LT(2,KC_SPC)",
       "LT(2,KC_SPC)",
@@ -69,7 +69,7 @@
       "KC_BSPC",
       "KC_LBRC",
       "KC_RBRC",
-      "KC_RPRN"
+      "LCTL(KC_SPC)"
     ],
     [
       "KC_GRV",
@@ -81,9 +81,9 @@
       "KC_CIRC",
       "KC_AMPR",
       "KC_ASTR",
+      "KC_NO",
       "KC_MINS",
       "KC_EQL",
-      "KC_BSLS",
       "KC_TILD",
       "KC_NO",
       "KC_NO",
@@ -94,7 +94,7 @@
       "KC_DOWN",
       "KC_UP",
       "KC_RGHT",
-      "KC_NO",
+      "KC_UNDS",
       "KC_PIPE",
       "KC_NO",
       "KC_NO",
@@ -115,15 +115,15 @@
       "KC_LGUI",
       "KC_SPC",
       "KC_SPC",
-      "KC_NO",
       "KC_MUTE",
       "KC_VOLD",
       "KC_VOLU",
+      "KC_NO",
       "KC_NO"
     ],
     [
-      "SGUI(KC_4)",
-      "SGUI(KC_5)",
+      "LSG(KC_4)",
+      "LSG(KC_5)",
       "KC_NO",
       "KC_LBRC",
       "KC_RBRC",
@@ -158,21 +158,20 @@
       "KC_P3",
       "KC_NO",
       "KC_ENT",
-      "SGUI(KC_A)",
-      "SGUI(KC_V)",
-      "SGUI(KC_S)",
-      "SGUI(KC_Q)",
+      "LSG(KC_A)",
+      "LSG(KC_V)",
+      "LSG(KC_S)",
+      "LSG(KC_Q)",
       "KC_NO",
       "KC_TRNS",
       "KC_TRNS",
       "KC_P0",
       "KC_P0",
       "KC_PDOT",
-      "KC_NO",
-      "KC_NO"
+      "HYPR(KC_P)",
+      "HYPR(KC_RPRN)"
     ]
   ],
   "author": ""
 }
 ```
-
